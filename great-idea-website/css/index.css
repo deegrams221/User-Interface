@@ -81,42 +81,65 @@ nav .logo{
 	display: inline-block;
 }
 
-header div h1{
+.header div h1{
 	font-size: 60px;
-	padding: 50px 10px;
+	text-align: center;
+	margin: 80px 30px 0;
+	padding: 0;
 	display: inline-block;
+	position: relative;
+
 }
 
-header img{
-	padding: 10px;
-	margin: 10px;
+.header img{
+	padding: 20px;
+	margin: 0 10px 0 300px;
 	border-radius: 10px;
+}
+
+.header div{
+	position: absolute;
 	display: inline-block;
 }
 
 button{
-	display: inline-block;
-	padding: 10px;
-	margin: 20px;
+	display: block;
+	padding: 0 auto;
+	margin: 0 0 0 95px;
 	height: 30px;
 	width: 120px;
 	box-sizing: border-box;
 	background-color: white;
 	border-style: ridge;
-	display: inline-block;
 	text-align: center;
+	position: relative;
 }
+
+
+h2{
+	margin-top: 20px;
+	padding: 20px 30px;
+}
+
 section{
 	margin-top: 20px;
 	padding: 20px 30px;
 }
+
 .features{
 	border-top: 1px solid black;
 	padding: 20px 30px;
 }
-
-.services{
+.bottom{
 	border-bottom: 1px solid black;
+	padding: 20px 30px;
+}
+
+.contact{
+	padding: 0 30px;
+}
+
+.middle-img{
 	padding: 20px 30px;
 }
 
