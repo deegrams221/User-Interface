@@ -118,12 +118,12 @@ button{
 
 h2{
 	margin-top: 20px;
-	padding: 20px 30px;
+	padding: 10px 0;
 }
 
 section{
-	margin-top: 20px;
-	padding: 20px 30px;
+	margin: 20px 0;
+	padding: 10px;
 }
 
 .features{
@@ -133,6 +133,22 @@ section{
 .bottom{
 	border-bottom: 1px solid black;
 	padding: 20px 30px;
+}
+
+section div{
+	padding: 10px;
+	max-width: 250px;
+	margin: 5px;
+}
+
+.features div{
+	display: inline-block;
+	text-align: left;
+}
+
+.bottom div{
+	display: inline-block;
+	text-align: left;
 }
 
 .contact{
