@@ -80,19 +80,22 @@ nav .logo{
 	font-size: 60px;
 	text-align: center;
 	margin: 80px 30px 0;
-	padding: 0;
 	display: inline-block;
 	position: relative;
 }
 
 .header img{
-	padding: 20px;
-	margin: 0 10px 0 300px;
-	border-radius: 10px;
+	position: relative;
+	display: inline-block;
 }
 
-.header div{
-	position: absolute;
+/* .header div{
+	position: relative;
+	display: inline-block;
+} */
+
+header{
+	width: 100%;
 	display: inline-block;
 }
 
@@ -109,6 +112,16 @@ button{
 	position: relative;
 }
 
+.col{
+	height: 400px;
+	width: 45%;
+	margin: 0 2%;
+	display: inline-block;
+}
+
+.col:first-child{
+	margin-left: 3%;
+}
 
 h2{
 	margin-top: 20px;
@@ -150,19 +163,20 @@ section div{
 }
 
 .contact{
-	margin: 0 30px;
+	margin: 0 auto;
+	text-align: left;
 }
 
 .middle-img{
 	display: block;
-	margin: 20px 30px;
+	margin: 20px 50px;
 }
 
 footer{
 	text-align: center;
 }
 
-*{
-	max-width: 80%;
+.container{
+	width: 1200px;
 	margin: 0 auto;
 }
