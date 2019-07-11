@@ -1,4 +1,4 @@
-Diana Grams
+ Diana Grams
 
 # User Interface Project: Great Idea Web Page
 
